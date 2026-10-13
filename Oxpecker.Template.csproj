@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Oxpecker.Template</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Oxpecker.Template</Title>
+    <Authors>Dmitry Proskurekov</Authors>
+    <Description>Project template for creating F# ASP.NET Core applications with Oxpecker.</Description>
+    <PackageTags>Oxpecker;web;dotnet-new;template;F#;ASP.NET;ASP.NET Core</PackageTags>
+    <PackageProjectUrl>https://github.com/proskdim/Oxpecker.Template</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/proskdim/Oxpecker.Template</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <PackageType>Template</PackageType>
+    <TargetFramework>net10.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IncludeSource>false</IncludeSource>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>False</EnableDefaultItems>
+    <IsPackable>true</IsPackable>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoWarn>$(NoWarn);2008;NU5105</NoWarn>
+    <SuppressDependenciesWhenPacking>True</SuppressDependenciesWhenPacking>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TemplateEngine.Tasks" Version="*" PrivateAssets="all" IsImplicitlyDefined="true"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="content/**" PackagePath="content" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="assets/icon.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
