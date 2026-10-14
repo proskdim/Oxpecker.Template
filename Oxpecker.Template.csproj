@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>Oxpecker.Template</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>Oxpecker.Template</Title>
     <Authors>Dmitry Proskurekov</Authors>
     <Description>Project template for creating F# ASP.NET Core applications with Oxpecker.</Description>
