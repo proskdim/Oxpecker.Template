@@ -1,5 +1,7 @@
 # Oxpecker Template
 
+[![NuGet](https://img.shields.io/nuget/v/Oxpecker.Template?logo=nuget)](https://www.nuget.org/packages/Oxpecker.Template)
+
 A .NET project template for creating F# ASP.NET Core applications with Oxpecker.
 
 ## Requirements
