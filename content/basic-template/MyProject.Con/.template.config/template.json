@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "identity": "Oxpecker.Template",
   "shortName": "oxpecker",
-  "name": "Oxpecker",
+  "name": "Oxpecker Basic Template",
   "author": "Dmitry Proskurekov",
   "classifications": [
     "Web",
