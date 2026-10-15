@@ -13,7 +13,7 @@ A .NET project template for creating F# ASP.NET Core applications with Oxpecker.
 The easiest way to install the Oxpecker template is by running the following command in your terminal:
 
 ```shell
-dotnet new install "Oxpecker.Template@*"
+dotnet new install Oxpecker.Template
 ```
 
 You can also install a specific version:
@@ -46,6 +46,7 @@ dotnet new oxpecker -n MyApp -o ./my-app
 ```shell
 dotnet new oxpecker-htmx -n MyApp -o ./my-app
 ```
+
 
 After that, run the application:
 ```shell
