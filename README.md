@@ -19,7 +19,7 @@ dotnet new install "Oxpecker.Template@*"
 You can also install a specific version:
 
 ```shell
-dotnet new install "Oxpecker.Template@1.0.0"
+dotnet new install "Oxpecker.Template@1.1.0"
 ```
 
 ## Updating the template
@@ -33,14 +33,26 @@ dotnet new install Oxpecker.Template
 
 ## Getting Started
 
-After installing the template, create a new Oxpecker web application:
+After installing the template, create a new web application:
+
+### Basic Oxpecker application
 
 ```shell
 dotnet new oxpecker -n MyApp -o ./my-app
-dotnet run --project my-app
 ```
 
-This template provides a starting point for building F# ASP.NET Core applications with Oxpecker.
+### Oxpecker + HTMX application
+
+```shell
+dotnet new oxpecker-htmx -n MyApp -o ./my-app
+```
+
+After that, run the application:
+```shell
+dotnet run --project ./my-app
+```
+
+These templates provide a starting point for building F# ASP.NET Core applications with Oxpecker.
 
 ## Uninstallation
 
