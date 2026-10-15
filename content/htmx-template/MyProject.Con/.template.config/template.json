@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "identity": "Oxpecker.Template.HTMX",
+  "shortName": "oxpecker-htmx",
+  "name": "Oxpecker HTMX Template",
+  "author": "Dmitry Proskurekov",
+  "classifications": [
+    "Web",
+    "F#",
+    "Oxpecker",
+    "HTMX"
+  ],
+  "tags": {
+    "language": "F#",
+    "type": "project"
+  },
+  "sourceName": "MyProject.Con",
+  "preferNameDirectory": true
+}
